@@ -28,15 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const handleScroll = () => {
         if (window.scrollY > 50) {
             header.style.boxShadow = 'var(--shadow-md)';
-            header.style.height = '70px';
+            header.style.height = '4.375';
             if (window.innerWidth > 768) {
-                document.querySelector('.header-container').style.height = '70px';
+                document.querySelector('.header-container').style.height = '4.375';
             }
         } else {
             header.style.boxShadow = 'none';
-            header.style.height = '80px';
+            header.style.height = '5';
             if (window.innerWidth > 768) {
-                document.querySelector('.header-container').style.height = '80px';
+                document.querySelector('.header-container').style.height = '5';
             }
         }
     };
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, {
         threshold: 0.15, // Trigger when 15% of the section is visible
-        rootMargin: '0px 0px -50px 0px' // Adjust trigger offset
+        rootMargin: '0px 0px -3.125rem 0px' // Adjust trigger offset
     });
     animSections.forEach(section => {
         revealObserver.observe(section);
@@ -84,9 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Glow effect when clicking a step
             document.querySelectorAll('.step').forEach(step => {
                 step.addEventListener('click', () => {
-                    step.style.boxShadow = '0 0 20px #00c853';
+                    step.style.boxShadow = '0 0 1.25rem #00c853';
                     setTimeout(() => {
-                        step.style.boxShadow = '0 6px 12px rgba(0,0,0,0.15)';
+                        step.style.boxShadow = '0 0.375rem 0.75rem rgba(0,0,0,0.15)';
                     }, 500);
                 });
             });
