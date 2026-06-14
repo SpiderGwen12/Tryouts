@@ -22,8 +22,8 @@ This website highlights our vision, features, and solutions for next‑gen garde
    git clone https://github.com/Spider-Gwen_12/farmspherica-website.git
 
 ## Developer Details
-Name: Moha Shanbhag
-Email: mohashanbhag123@gmail.com
-Grade: 9
-School: Chrysalis High Kadugodi
-Project title: Hydroponics 101 Landing Page
+- ##Name##: Moha Shanbhag
+-##Email##: mohashanbhag123@gmail.com
+-##Grade##: 9
+-##School##: Chrysalis High Kadugodi
+-##Project title##: Hydroponics 101 Landing Page
